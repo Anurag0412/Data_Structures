@@ -31,7 +31,7 @@ struct Stack{
 void initialize(struct Stack *stack){
 	
 	//marking the top element as stack has just started so the top elements index must be -1
-	stack->top==-1;
+	stack->top=-1;
 	printf("Stack initialized!!");
 }
 
